@@ -702,6 +702,18 @@ video {
   max-width: 423px;
 }
 
+.max-w-\[428px\]{
+  max-width: 428px;
+}
+
+.max-w-md{
+  max-width: 28rem;
+}
+
+.max-w-full{
+  max-width: 100%;
+}
+
 .cursor-pointer{
   cursor: pointer;
 }
@@ -868,6 +880,10 @@ video {
 
 .text-center{
   text-align: center;
+}
+
+.align-middle{
+  vertical-align: middle;
 }
 
 .font-mont{
