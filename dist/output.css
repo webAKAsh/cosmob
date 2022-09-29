@@ -993,9 +993,23 @@ video {
 }
 
 @media (prefers-color-scheme: dark){
+  .dark\:border-2{
+    border-width: 2px;
+  }
+
   .dark\:border-gray-600{
     --tw-border-opacity: 1;
     border-color: rgb(75 85 99 / var(--tw-border-opacity));
+  }
+
+  .dark\:border-black{
+    --tw-border-opacity: 1;
+    border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  }
+
+  .dark\:border-white{
+    --tw-border-opacity: 1;
+    border-color: rgb(255 255 255 / var(--tw-border-opacity));
   }
 
   .dark\:bg-gray-700{
