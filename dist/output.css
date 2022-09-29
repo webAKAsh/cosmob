@@ -993,6 +993,10 @@ video {
 }
 
 @media (prefers-color-scheme: dark){
+  .dark\:rounded-md{
+    border-radius: 0.375rem;
+  }
+
   .dark\:border-2{
     border-width: 2px;
   }
@@ -1025,6 +1029,10 @@ video {
   .dark\:bg-black{
     --tw-bg-opacity: 1;
     background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  }
+
+  .dark\:p-2{
+    padding: 0.5rem;
   }
 
   .dark\:text-gray-400{
