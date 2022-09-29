@@ -10,16 +10,10 @@
   />
   </head>
   <body>
-    <div class="flex justify-center flex-col mt-8">
-      <div class="flex justify-center items-center">
+    <div class="container mx-auto mt-8 flex justify-center flex-col items-center">
         <img src="../assets/Header 1.png" alt="Header" />
-      </div>
-
-      <div class="flex flex-col my-3">
-        <h2 class="text-center text-2xl">Thank you</h2>
-        <h2 class="text-center text-2xl">for visiting</h2>
-      </div>
-      <div class="flex justify-center items-center flex-col space-y-2 my-3">
+        <h2 class="text-2xl">Thank you</h2>
+        <h2 class="text-2xl">for visiting</h2>
         <img
           src="../assets/Techworks_Logo.png"
           alt="Techworks_Logo"
@@ -27,10 +21,9 @@
         />
         <p class="text-2xl">@</p>
         <img src="../assets//image 1.png" alt="image" class="max-h-16" />
-      </div>
-      <h2 class="text-center text-2xl mt-2">To Know More</h2>
+      <h2 class="text-2xl mt-2">To Know More</h2>
       <div
-        class="flex justify-center gap-3 items-stretch mt-2 relative"
+        class=" mt-2 relative"
       >
         <button
           id="getInTouch"
@@ -45,8 +38,7 @@
           Download <br/> Presentation
         </button>
         <div class="hidden bg-white
-         px-4 absolute w-full top-[-3px] animate__animated animate__slideInRight
-         animate__faster max-w-[423px]" id="emailQuery">
+         px-4 absolute w-full top-[-3px]" id="emailQuery">
           <p class="text-gray-400 italic text-center text-sm">
             We will send you the presentation securely on your email
           </p>
@@ -79,7 +71,7 @@
             type="submit"
             id="queryBtn"
             class="text-white bg-black rounded-lg 
-            text-base absolute top-0 right-0 py-3 px-8 sm:w-auto text-center dark:bg-white font-bold uppercase tracking-wide disabled:bg-gray-400"
+            text-base absolute top-0 right-0 py-3 px-4 sm:w-auto text-center dark:bg-white font-bold uppercase disabled:bg-gray-400"
             disabled
           >
             Submit
@@ -89,7 +81,7 @@
         </div>
       </div>
       <div id="contactForm"
-        class="justify-center items-center flex-col shadow-xl absolute top-0 rounded-md w-full bg-white hidden animate__animated animate__slideInUp animate__faster"
+        class="container mx-auto p-3 shadow-xl absolute top-0 rounded-md w-full bg-white hidden"
       >
         <div class="flex items-center w-full">
           <img
@@ -110,7 +102,7 @@
           </p>
         </div>
 
-        <form class="w-full p-4">
+        <form class="w-full px-3 pb-3">
           <div class="mb-6">
             <label
               for="name"

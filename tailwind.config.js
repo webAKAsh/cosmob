@@ -5,7 +5,10 @@ module.exports = {
     extend: {
       fontFamily:{
         "mont" : ['Montserrat', "sans-serif"]
-      }
+      },
+      container: {
+        center: true,
+      },
     },
   },
   plugins: [],
